@@ -1,0 +1,18 @@
+{
+  "name": "projeto_rhp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"cd RHP_Cliente && npm start\" \"cd RHP_Servidor && npm start\"",
+    "update": "concurrently \"cd RHP_Cliente && npm i\" \"cd RHP_Servidor && npm i\""
+    
+    
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
