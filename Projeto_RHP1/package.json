@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "concurrently \"cd RHP_Cliente && npm start\" \"cd RHP_Servidor && npm start\"",
-    "update": "concurrently \"cd RHP_Cliente && npm i\" \"cd RHP_Servidor && npm i\""
+    "update": "concurrently \"cd RHP_Cliente && npm install \" \"cd RHP_Servidor && npm install\""
     
     
   },
